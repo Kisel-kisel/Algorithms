@@ -19,7 +19,7 @@ public class Algoaitm {
 //        int sum = num1 + num2 + num3;
 //        System.out.println(sum);
 
-        int [] arr = new int[7];
+        int[] arr = new int[7];
         arr[0] = 3;
         arr[1] = 6;
         arr[2] = 4;
@@ -28,24 +28,30 @@ public class Algoaitm {
         arr[5] = 1;
         arr[6] = 9;
 
-
-
-        int sum = 0;
-        for (int i = 0; i < arr.length; i++) {
-//            System.out.println(arr[i]*arr[i]);
-            sum += arr[i]*arr[i];
-
-        }
-        System.out.println(sum);
-
-
-
+//            Task 1
         for (int i = 0; i < arr.length; i++) {
 
-            if(arr[i] == 6){
+            if (arr[i] == 6) {
                 System.out.println("Yes, it is index: " + i + ".");
             }
         }
 
+
+
+//           Task 2
+    int sum = 0;
+        for(
+    int i = 0;
+    i<arr.length;i++)
+
+    {
+//            System.out.println(arr[i]*arr[i]);
+        sum += arr[i] * arr[i];
+
     }
+        System.out.println(sum);
+
+
+}
+
 }
