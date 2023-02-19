@@ -2,7 +2,7 @@ package lessons;
 
 import java.util.Scanner;
 
-public class AlgHome {
+public class Draft{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 //        System.out.println("Введите число N для проверки являеться ли оно точной степенью следующего числа:");
